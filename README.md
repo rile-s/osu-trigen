@@ -19,4 +19,4 @@ Hubza: hubz@hubza.co.uk
 
 the man that did the rewrite:
 riles: riles#8763
-[Discord Server] (https://discord.gg/jggZHYp)
+[Discord Server](https://discord.gg/jggZHYp)
