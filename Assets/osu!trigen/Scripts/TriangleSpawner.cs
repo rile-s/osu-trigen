@@ -39,19 +39,8 @@ namespace riles.trigen {
 
             // Check if tri can be spawned
             if (spawnChanceFinal > 1 - trigenVariables.SpawnChance) {
-                // Get position and scale
-                Vector3 position = NewLocation();
-                Vector3 scale = NewScale();
-                position.z = scale.x;
-
-                // Create tri and set position and scale
-                GameObject go = Instantiate(triangle, triContainer, false);
-                go.transform.localPosition = position;
-                go.transform.localScale = scale;
-
-                // Init tri
-                Triangle tri = go.GetComponent<Triangle>();
-                tri.Init();
+                // Create tri
+                GameObject go = Instantiate(triangle, triContainer);
             }
         }
 

@@ -8,6 +8,17 @@ namespace riles.trigen {
         [SerializeField]
         private SpriteRenderer sprite;
 
+        private void Awake() {
+            Vector3 position = TriangleSpawner.NewLocation();
+            Vector3 scale = TriangleSpawner.NewScale();
+
+            transform.position = position;
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, scale.x);
+            transform.localScale = scale;
+
+            Init();
+        }
+
         void Update() {
             if (!trigenVariables.Paused) {
                 // Move the triangle
@@ -18,7 +29,8 @@ namespace riles.trigen {
                     Vector3 position = TriangleSpawner.NewLocation();
                     Vector3 scale = TriangleSpawner.NewScale();
 
-                    transform.localPosition = new Vector3(position.x, position.y, scale.x);
+                    transform.position = position;
+                    transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, scale.x);
                     transform.localScale = scale;
 
                     Init();
