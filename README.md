@@ -1,4 +1,4 @@
-### [Insert Image]
+### ![osu-trigen-importable logo](https://upload.hubza.co.uk/i/oti.png)
 
 osu!trigen-importable is a rewrite of osu!trigen.
 This rewrite allows the generator to be imported into any Unity project.
@@ -12,10 +12,8 @@ I also find the way simpler. (but lets face it, **I** did this)
 ~~This was created using the Unity version 2019.3.0f6m but can be downgraded, or upgraded to later versions in a small range. We'll soon move to the latest release version of Unity.~~
 This was upgraded to Unity version 20.13.3.5f1
 
-### [Insert Image]
-
 Original Creator:
-Hubza: hubz@hubza.co.uk
+Eclipsedteam | @eclipsedteam
 
 the man that did the rewrite:
 riles: riles#8763
