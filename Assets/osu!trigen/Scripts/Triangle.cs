@@ -13,7 +13,7 @@ namespace riles.trigen {
             Vector3 scale = TriangleSpawner.NewScale();
 
             transform.position = position;
-            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, scale.x);
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, scale.x * 2);
             transform.localScale = scale;
 
             Init();
@@ -30,7 +30,7 @@ namespace riles.trigen {
                     Vector3 scale = TriangleSpawner.NewScale();
 
                     transform.position = position;
-                    transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, scale.x);
+                    transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, scale.x * 2);
                     transform.localScale = scale;
 
                     Init();

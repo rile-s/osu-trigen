@@ -40,7 +40,7 @@ namespace riles.trigen {
             // Check if tri can be spawned
             if (spawnChanceFinal > 1 - trigenVariables.SpawnChance) {
                 // Create tri
-                GameObject go = Instantiate(triangle, triContainer);
+                Instantiate(triangle, triContainer);
             }
         }
 

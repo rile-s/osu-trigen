@@ -24,6 +24,7 @@ namespace riles.trigen {
         [Space]
         [Range(0f, 1f)]
         public float colorVariance = 0.1f;
+
         [Header("Cosmetic")]
         public Color[] triColors = new Color[1] { new Color(255, 124, 216) };
         public Color backgroundColor = new Color(65, 65, 65);
