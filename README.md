@@ -1,3 +1,6 @@
+### NOTE
+If you are using this, use it sparingly. There are way more efficient tools that achieve the same effect. Two of them on the top of my head is the Particle System (Shuriken) and the VFX Graph (HDRP only to my knowledge).
+
 ### ![osu-trigen-importable logo](https://i.imgur.com/MD86ZHK.png)
 
 osu!trigen-importable is a rewrite of osu!trigen.
